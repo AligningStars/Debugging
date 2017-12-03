@@ -69,7 +69,7 @@ def is_prime(n):
         if n % k == 0:
             return False
 
-    return True
+    return True             # Question: Why is it not necessary to add else before return True?
 
 
 ########################################################################
